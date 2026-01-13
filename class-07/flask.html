@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        header{
+            background-color: aliceblue;
+        }
+        .nav-container {
+            margin: 0 auto;
+            width: 70%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .menu {
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+        .login-container{
+            margin: 0 auto;
+            border: 1px solid maroon;
+            width: 70%;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .login-form{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            gap: 20px;
+        }
+        .login-form input{
+            font-size: 25px;
+            text-align: center;
+        }
+        .login-form button{
+            font-size: 25px;
+            background-color: bisque;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav class="nav-container">
+            <ul class="menu">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact us</li>
+                <li>Portfolio</li>
+            </ul>
+            <h3>Login</h3>
+
+        </nav>
+    </header>
+    <main>
+        <div class="login-container">
+            <form class="login-form">
+                <h1>Login Form</h1>
+                <input type="email" name="" id="" placeholder="Your Email" required>
+                <input type="password" name="" id="" placeholder="Your Password" required>
+                <button type="submit">Submit</button>
+            </form>
+
+        </div>
+    </main>
+</body>
+
+</html>
