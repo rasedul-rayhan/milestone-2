@@ -125,6 +125,12 @@ nav .menu a {
     margin-bottom: 30px;
 }
 
+.btn-group{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
 
 #banner .banner-image img {
     max-width: 585px;
@@ -160,9 +166,6 @@ nav .menu a {
 .about-info .info-card h4 {
     font-size: 20px;
 }
-
-
-
 
 
 #skills .skills-container .skill-box {
@@ -291,13 +294,24 @@ footer .footer-container {
     .container {
         width: 95%;
     }
+    header{
+        background: url(../images/header_bg.png), #FFF8F3;
+        background-position: bottom right;
+        background-repeat: no-repeat;
+    }
+
     nav .menu{
         flex-wrap: wrap;
         justify-content: center;
     }
     #banner{
-        margin: 10px;
+        margin: 20px;
+        gap: 20px;
         text-align: center;
+
+    }
+    #banner .banner-content h1{
+        font-size: 44px;
     }
     #banner .banner-image img{
         width: 100%;
@@ -310,6 +324,15 @@ footer .footer-container {
     .footer-container h2
     {
         font-size: 30px;
+    }
+    
+    .resume-card{
+        width: 100%;
+        padding: 20px;
+    }
+    .education, .experience{
+        text-align: center;
+        margin: 0 auto;
     }
     #resume .resume-container{
         margin-top: 50px;
