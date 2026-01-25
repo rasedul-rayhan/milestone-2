@@ -170,6 +170,7 @@ main .teams{
     padding-top: 100px;
 }
 .fact-card{
+    width: 200px;
     border: 2px solid navy;
     border-radius: 8px;
     padding: 45px 35px 60px;
@@ -207,6 +208,8 @@ footer{
     padding-bottom: 28px;
     margin-bottom: 216px;
 }
+
+
 /* responsive design */
 @media screen and (max-width: 576px){
     .navbar, 
@@ -214,10 +217,53 @@ footer{
     .teams{
         flex-direction: column;
     }
+    .navbar{
+        text-align: center;
+    }
+    .banner .banner-title{
+        font-size: 3rem;
+    }
+
+     /* features */
     .team-image-container{
         grid-template-columns: repeat(1,1fr);
     }
     .team-image-container img{
         width: 100%;
     }
+    .features-container{
+        flex-direction: column;
+        gap: 0;
+    }
+    .features-image-badge{
+        margin: 0 auto;
+    }
+    .features-image-badge img{
+        display: none;
+    }
+    .experience-badge{
+        margin: 0;
+    }
+    .experience-badge #experience-years {
+    font-size: 2rem;
+    font-weight: bold;
+    }
+
+    /* facts cards */
+    .fact-cards-container{
+        flex-direction: column;
+        padding-top: 50px;
+        gap: 30px;
+    }
+    .fact-card{
+        margin: 0 auto;
+    }
+
+    /* sponsors */
+    .sponsors-companies{
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+
 }
