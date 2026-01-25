@@ -1,0 +1,12 @@
+1.overflow: hidden; for hide over paragraph in the div.
+overflow: auto; if the text will be more than the size of div then it will be take scroll bar
+
+overflow-x : hidden; if i wanna of horizental scroll bar
+overflow-y : hidden; if i wanna of varticle scroll bar
+
+2. text-overflow: elipsis; used for if text more then the width of area then it will take "..."
+
+
+
+
+
